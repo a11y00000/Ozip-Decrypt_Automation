@@ -1,21 +1,13 @@
 name: OZIP Decrypter by TechyMinati..
 
 on:
-#  release:
-#    types: [published]
-#  push:
-#    branches:
-#      - master
-#    paths:
-#      - '.config'
-#  schedule:
-#    - cron: 0 8 * * 5
+  workflow_dispatch:
   watch:
     types: [started]
 
 env:
-  FIRMWARE_LINK: https://download.c.realme.com/osupdate/CPH1861EX_11_OTA_0500_all_fLuS0Ipoe93t.ozip
-  FIRMWARE_NAME: CPH1861EX_11_OTA_0500_all_fLuS0Ipoe93t.ozip
+  FIRMWARE_LINK: https://download.c.realme.com/osupdate/RMX2185_11_OTA_0650_all_jif6XLQEIp0p.ozip
+  FIRMWARE_NAME: RMX2185_11_OTA_0650_all_jif6XLQEIp0p.ozip
   TZ: Asia/Kolkata
 
 jobs:
