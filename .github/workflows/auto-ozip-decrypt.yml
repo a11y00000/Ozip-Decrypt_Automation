@@ -1,15 +1,7 @@
 name: OZIP Decrypter by TechyMinati..
 
 on:
-#  release:
-#    types: [published]
-#  push:
-#    branches:
-#      - master
-#    paths:
-#      - '.config'
-#  schedule:
-#    - cron: 0 8 * * 5
+  workflow_dispatch:
   watch:
     types: [started]
 
